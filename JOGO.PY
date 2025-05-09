@@ -30,7 +30,7 @@ while not dificuldade_valida:
 numero_secreto = random.randint (10,100)
 pontuacao = 100
 
-print("\nJogo iniciado!Good luck bitch!")
+print("\nJogo iniciado!Good luck!")
 
 while tentativas > 0:
     print(f"\ntentativas restantes: {tentativas}")
@@ -58,6 +58,7 @@ while tentativas > 0:
     if tentativas ==0:
         print(f"\nFim de jogo. O numero secreto era {numero_secreto}!")
         print("tente novamente")
+
 
 
         
